@@ -9,6 +9,7 @@ const handleComplete = (todo) => {
                 return {...item , completed: !item.completed}
             }
             return item;
+            alert('Check output')
         }
         )
     )
