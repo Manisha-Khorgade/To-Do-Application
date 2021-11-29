@@ -11,6 +11,7 @@ const Form = ({input, setInput, todos, setTodos, editTodos, setEditTodos  }) => 
         event.preventDefault();
         setTodos([...todos, { id: uuidv4(), title:input, completed: false}]);
         setInput("");
+        console.log('Hello You')
     };
     return (
         <form onSubmit={onFormSubmit} >

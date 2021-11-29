@@ -25,7 +25,7 @@ const App = () => {
              </div>
              <br/>
              <hr/>
-                <div className="List-Block">Listed Items</div>
+                <div className="List-Block">Listed Items  are below</div>
                     <TodoList  
                         todos={todos}
                         setTodos={setTodos}  />    
